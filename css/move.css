@@ -1,0 +1,14 @@
+.move a{
+  position: relative;
+  animation: mymove 20s;
+  animation-iteration-count: 1;
+
+
+}
+
+@keyframes mymove {
+  from {left: 200px;}
+  to {left: 0px;}
+}
+
+
